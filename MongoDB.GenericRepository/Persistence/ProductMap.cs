@@ -1,5 +1,5 @@
 ﻿using MongoDB.Bson.Serialization;
-using MongoDB.GenericRepository.Model;
+using SMCT.DataAccess.Model;
 
 namespace MongoDB.GenericRepository.Persistence
 {

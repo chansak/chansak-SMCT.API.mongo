@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2026
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB.GenericRepository", "MongoDB.GenericRepository\SMCT.API.mongodb.csproj", "{86BDE810-8CE3-4E05-A936-868F43AB2E90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMCT.API", "MongoDB.GenericRepository\SMCT.API.csproj", "{86BDE810-8CE3-4E05-A936-868F43AB2E90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMCT.DataAccess", "SMCT.DataAccess\SMCT.DataAccess\SMCT.DataAccess.csproj", "{43A77629-C9FF-48C0-94A2-336903B0D5C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMCT.Business", "SMCT.Business\SMCT.Business\SMCT.Business.csproj", "{5C387BE3-955D-4FC1-8241-EC2168446588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMCT.Model", "SMCT.Model\SMCT.Model\SMCT.Model.csproj", "{B0EB9772-2BD2-41E1-AC46-7E6064DA573B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMCT.Shared", "SMCT.Shared\SMCT.Shared\SMCT.Shared.csproj", "{117AB959-1B6F-4B5D-9B90-C1D59ABE4D7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{86BDE810-8CE3-4E05-A936-868F43AB2E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86BDE810-8CE3-4E05-A936-868F43AB2E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86BDE810-8CE3-4E05-A936-868F43AB2E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A77629-C9FF-48C0-94A2-336903B0D5C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A77629-C9FF-48C0-94A2-336903B0D5C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A77629-C9FF-48C0-94A2-336903B0D5C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A77629-C9FF-48C0-94A2-336903B0D5C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C387BE3-955D-4FC1-8241-EC2168446588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C387BE3-955D-4FC1-8241-EC2168446588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C387BE3-955D-4FC1-8241-EC2168446588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C387BE3-955D-4FC1-8241-EC2168446588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0EB9772-2BD2-41E1-AC46-7E6064DA573B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0EB9772-2BD2-41E1-AC46-7E6064DA573B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0EB9772-2BD2-41E1-AC46-7E6064DA573B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0EB9772-2BD2-41E1-AC46-7E6064DA573B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{117AB959-1B6F-4B5D-9B90-C1D59ABE4D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117AB959-1B6F-4B5D-9B90-C1D59ABE4D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117AB959-1B6F-4B5D-9B90-C1D59ABE4D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117AB959-1B6F-4B5D-9B90-C1D59ABE4D7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

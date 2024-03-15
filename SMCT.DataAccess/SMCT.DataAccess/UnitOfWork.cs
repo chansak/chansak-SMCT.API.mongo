@@ -1,7 +1,6 @@
-﻿using System.Threading.Tasks;
-using MongoDB.GenericRepository.Interfaces;
+﻿using SMCT.DataAccess.Interfaces;
 
-namespace MongoDB.GenericRepository.UoW
+namespace SMCT.DataAccess.UoW
 {
     public class UnitOfWork : IUnitOfWork
     {

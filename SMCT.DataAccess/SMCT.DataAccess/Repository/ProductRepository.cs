@@ -1,7 +1,7 @@
-﻿using MongoDB.GenericRepository.Interfaces;
-using MongoDB.GenericRepository.Model;
+﻿using SMCT.DataAccess.Interfaces;
+using SMCT.DataAccess.Model;
 
-namespace MongoDB.GenericRepository.Repository
+namespace SMCT.DataAccess.Repository
 {
     public class ProductRepository : BaseRepository<Product>, IProductRepository
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MongoDB.GenericRepository.Model
+namespace SMCT.DataAccess.Model
 {
     public class Product
     {

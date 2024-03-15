@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-
-namespace MongoDB.GenericRepository.Interfaces
+﻿namespace SMCT.DataAccess.Interfaces
 {
     public interface IRepository<TEntity> : IDisposable where TEntity : class
     {

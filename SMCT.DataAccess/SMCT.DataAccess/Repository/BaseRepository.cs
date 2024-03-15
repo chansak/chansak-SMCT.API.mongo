@@ -1,11 +1,8 @@
 ﻿using MongoDB.Driver;
-using MongoDB.GenericRepository.Interfaces;
 using ServiceStack;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+using SMCT.DataAccess.Interfaces;
 
-namespace MongoDB.GenericRepository.Repository
+namespace SMCT.DataAccess.Repository
 {
     public abstract class BaseRepository<TEntity> : IRepository<TEntity> where TEntity : class
     {

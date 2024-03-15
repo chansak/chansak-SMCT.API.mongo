@@ -1,8 +1,6 @@
 ﻿using MongoDB.Driver;
-using System;
-using System.Threading.Tasks;
 
-namespace MongoDB.GenericRepository.Interfaces
+namespace SMCT.DataAccess.Interfaces
 {
     public interface IMongoContext : IDisposable
     {

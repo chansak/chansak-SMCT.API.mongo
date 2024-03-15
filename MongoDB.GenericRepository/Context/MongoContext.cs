@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
-using MongoDB.GenericRepository.Interfaces;
+using SMCT.DataAccess.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

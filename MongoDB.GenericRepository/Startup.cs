@@ -6,10 +6,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using MongoDB.GenericRepository.Context;
-using MongoDB.GenericRepository.Interfaces;
 using MongoDB.GenericRepository.Persistence;
-using MongoDB.GenericRepository.Repository;
-using MongoDB.GenericRepository.UoW;
+using SMCT.DataAccess.Interfaces;
+using SMCT.DataAccess.Repository;
+using SMCT.DataAccess.UoW;
 using System;
 
 namespace MongoDB.GenericRepository

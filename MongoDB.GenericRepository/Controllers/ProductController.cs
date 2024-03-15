@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MongoDB.GenericRepository.Interfaces;
-using MongoDB.GenericRepository.Model;
 using MongoDB.GenericRepository.ViewModel;
+using SMCT.DataAccess.Interfaces;
+using SMCT.DataAccess.Model;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
